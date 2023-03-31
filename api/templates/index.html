@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REAI Meshout 1</title>
+    <link rel="stylesheet" href="/static/css.css">
+</head>
+<body>
+    <div class="joystick" id="joystick">
+        <div class="thumb" id="thumb"></div>
+    </div>
+    <script src="/static/joystick.js"></script>
+
+    <div class="shoot" id="shoot">
+        <div class="bullet" id="bullet"></div>
+    </div>
+    <script src="/static/shoot.js"></script>
+    
+    <div class="stage_up" id="stage_up"></div>
+    <script src="/static/stage_up.js"></script>
+
+    <div class="stage_down" id="stage_down"></div>
+    <script src="/static/stage_down.js"></script>
+
+    <div class="cal_pos" id="cal_pos"></div>
+    <script src="/static/cal_pos.js"></script>
+
+    <div class="turn_left" id="turn_left"></div>
+    <script src="/static/turn_left.js"></script>
+
+    <div class="turn_right" id="turn_right"></div>
+    <script src="/static/turn_right.js"></script>
+
+    <div class="xJoyCon" id="xJoyCon">
+        <p>Joy position X : <span id="xJoy">0.00</span></p>
+    </div>
+
+    <div class="yJoyCon" id="yJoyCon">
+        <p>Joy position Y : <span id="yJoy">0.00</span></p>
+    </div>
+
+    <div class="dJoyCon" id="dJoyCon">
+        <p>Joy position D : <span id="dJoy">0.00</span></p>
+    </div>
+
+    <div class="xRoboCon" id="xRoboCon">
+        <p>Joy position X : <span id="xRobo">0.00</span></p>
+    </div>
+
+    <div class="yRoboCon" id="yRoboCon">
+        <p>Joy position Y : <span id="yRobo">0.00</span></p>
+    </div>
+
+    <div class="dRoboCon" id="dRoboCon">
+        <p>Joy position D : <span id="dRobo">0.00</span></p>
+    </div>
+
+    <div class="statusStageCon" id="statusStageCon">
+        <p>Stage : <span id="statusStage">0</span></p>
+    </div>
+
+    <div class="statusShootCon" id="statusShootCon">
+        <p>StatusShoot : <span id="statusShoot"></span></p>
+    </div>
+
+    <div class="speedShootCon" id="speedShootCon">
+        <input type="number" class="speedShoot" id="speedShoot" name="speedShoot" value=100>
+    </div>
+    <script src="/static/speedShoot.js"></script>
+
+    <div class="video" id="video">for camera</div>
+    <script src="/static/video.js"></script>
+
+    <div class="teamCon" id="teamCon">
+        <h1 id="team" class="team">REAI CMU MAHOUT 1</h1>
+    </div>
+
+</body>
+</html>
